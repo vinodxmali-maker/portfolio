@@ -246,7 +246,7 @@ span {
     flex-wrap: wrap;
     gap: 2rem;   
 }
-.Services-container .services-box {
+.Services-container .Services-box {
     flex:1 1 30rem;
     background: var(--snd-bg-color);
     padding: 6rem 2rem 6rem;
@@ -255,7 +255,7 @@ span {
     border: 0.3rem solid var(--bg-color);
     transition: 0.3s ease;
 }
-.Services-container .services-box:hover {
+.Services-container .Services-box:hover {
     border-color: var(--main-color);
     transform: scale(1.02);
 }
