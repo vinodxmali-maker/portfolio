@@ -183,10 +183,13 @@ span {
     justify-content: space-between;
     align-items: center;
     background:var(--snd-bg-color);
+    flex-direction: column-reverse;
+    text-align: center;
 }
 
 .about-content {
     order: 1;
+    padding: 0;
 }
 
 .about-img {
@@ -220,18 +223,20 @@ span {
 }
 
 .about-content h2 {
-    text-align: left;
     line-height: 1.2;
+    text-align: center;
 }
 
 .about-content h3 {
     font-size: 3rem;
+    text-align: center;
 }
 
 .about-content p {
     font-size: 1.6rem;
     margin: 2rem 0 3rem;
     line-height: 1.7;
+    text-align: center;
 }
 
 /* Services Section Code */
